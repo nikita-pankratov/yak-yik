@@ -1,0 +1,14 @@
+Components:
+- react-dom
+--> takes you html and binds it to react
+-- very small: only glues react code to the dom
+-- for instance if using react-native you dont need react-dom
+- babel
+--> for transpiling ES6 to ES5
+-- not all browsers read new ES6 thats why we need this
+- webpack
+--> runs babel tasks for us
+-- executes bundle scripts
+- superagent
+--> handles API requests
+
